@@ -1,11 +1,8 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
 body {background-color: red;}
-.first, .second {font-family: century gothic;}
-.center { width: 80%;
-          background-color: burlywood;
-          margin-left: auto;
-          margin-right: auto;
-          padding: 20px;
-          max-width: 500px;
-        }
+.first, .second {font-family: century gothic; text-align: center;}
+.first {font-weight: bold;}
+.second {color: gray; font-size: small;}
+img {border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-top: 200px; width: 200px;}
+.center {outline: 10px solid black; outline-offset: -2px;}
